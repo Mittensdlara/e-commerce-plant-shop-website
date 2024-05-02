@@ -1,0 +1,15 @@
+
+
+.hero img {
+    background-image: url("../img/hero-black.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 320px;
+   background-position-y: 100px;
+
+}
+
+.logo-title {
+    font-family: "Sevillana", cursive;
+    font-weight: 800;
+}
