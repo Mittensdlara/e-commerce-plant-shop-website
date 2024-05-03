@@ -6,10 +6,10 @@ import planet3 from "../img/planet3.png";
 const BestSelling = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row">
-        <div className=" bg-base-100 basis-1/4 ">
+      <div className="flex flex-col lg:flex-row p-5">
+        <div className=" bg-base-100 basis-1/2 ">
           <div className="card-body  space-y-4">
-            <h2 className=" font-extrabold text-2xl text-black ">
+            <h2 className=" font-extrabold text-3xl text-black ">
               Best Selling Plants
             </h2>
             <p className="text-sm text-gray-500">
@@ -25,7 +25,7 @@ const BestSelling = () => {
             <Image src={planet1} alt="planet" className="rounded-xl w-56" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">Natural Plants</h2>
+            <h2 className="card-title text-base text-black">Natural Plants</h2>
             <p className="text-gray-500">₱ 1,400.00</p>
           </div>
         </div>
@@ -34,7 +34,7 @@ const BestSelling = () => {
             <Image src={planet2} alt="planet" className="rounded-xl w-56" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">Artificial Plants</h2>
+            <h2 className="card-title text-base text-black">Artificial Plants</h2>
             <p className="text-gray-500">₱ 900.00</p>
           </div>
         </div>
@@ -43,7 +43,7 @@ const BestSelling = () => {
             <Image src={planet3} alt="planet" className="rounded-xl w-56" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title">Artificial Plants</h2>
+            <h2 className="card-title text-base text-black">Artificial Plants</h2>
             <p className="text-gray-500">₱ 3,500.00</p>
           </div>
         </div>
